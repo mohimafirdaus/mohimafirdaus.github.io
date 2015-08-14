@@ -1,2 +1,4 @@
 name: Mohima Firdaus
 markdown: kramdown
+permalink: /about/:year/:month/:day/:title
+permalink: /method/:year/:month/:day/:title
