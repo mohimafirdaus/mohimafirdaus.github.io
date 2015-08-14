@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Mobile usage per 100 people (worldwide) </title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.css' rel='stylesheet' />
+<div id='map'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoibW9oaW1hZmlyZGF1cyIsImEiOiIwODU2NjFiMTkzYjBlODQ3OTUwZmQ0ODRhYWJjYmJjOCJ9.8SgyTy_vn-74IP6QRGkOsg';
+    var map = L.mapbox.map('map', 'mapbox.streets', {
+        center: [55.378051,-3.435973],
+        zoom: 1
+    });
+   L.marker([33.93911,67.709953]).bindLabel('Afghanistan: Mobiles per 100 people: 75').addTo(map);
+L.marker([41.153332,20.1683309999999]).bindLabel('Albania: Mobiles per 100 people: 105').addTo(map);
+L.marker([28.033886,1.659626]).bindLabel('Algeria: Mobiles per 100 people: 93').addTo(map);
+L.marker([-14.3060204,-170.696181499999]).bindLabel('American Samoa: Mobiles per 100 people: N/A').addTo(map);
+L.marker([42.506285,1.52180099999998]).bindLabel('Andorra: Mobiles per 100 people: 83').addTo(map);
+L.marker([-11.202692,17.8738869999999]).bindLabel('Angola: Mobiles per 100 people: 63').addTo(map);
+L.marker([17.060816,-61.7964279999999]).bindLabel('Antigua and Barbuda: Mobiles per 100 people: 120').addTo(map);
+L.marker([-38.416097,-63.6166719999999]).bindLabel('Argentina: Mobiles per 100 people: 159').addTo(map);
+L.marker([40.069099,45.0381889999999]).bindLabel('Armenia: Mobiles per 100 people: 116').addTo(map);
+L.marker([12.52111,-69.968338]).bindLabel('Aruba: Mobiles per 100 people: 135').addTo(map);
+L.marker([-25.274398,133.775135999999]).bindLabel('Australia: Mobiles per 100 people: 131').addTo(map);
+L.marker([47.516231,14.550072]).bindLabel('Austria: Mobiles per 100 people: 152').addTo(map);
+L.marker([40.143105,47.576927]).bindLabel('Azerbaijan: Mobiles per 100 people: 111').addTo(map);
+L.marker([25.03428,-77.3962799999999]).bindLabel('Bahamas, The: Mobiles per 100 people: 71').addTo(map);
+L.marker([26.0667,50.5577]).bindLabel('Bahrain: Mobiles per 100 people: 173').addTo(map);
+L.marker([23.684994,90.3563309999999]).bindLabel('Bangladesh: Mobiles per 100 people: 76').addTo(map);
+L.marker([13.193887,-59.5431979999999]).bindLabel('Barbados: Mobiles per 100 people: 107').addTo(map);
+L.marker([53.709807,27.953389]).bindLabel('Belarus: Mobiles per 100 people: 123').addTo(map);
+L.marker([50.503887,4.46993599999996]).bindLabel('Belgium: Mobiles per 100 people: 114').addTo(map);
+L.marker([7.189877,-88.49765]).bindLabel('Belize: Mobiles per 100 people: 51').addTo(map);
+L.marker([9.30769,2.31583399999999]).bindLabel('Benin: Mobiles per 100 people: 102').addTo(map);
+L.marker([32.3078,-64.7504999999999]).bindLabel('Bermuda: Mobiles per 100 people: 91').addTo(map);
+L.marker([27.514162,90.4336009999999]).bindLabel('Bhutan: Mobiles per 100 people: 82').addTo(map);
+L.marker([-16.290154,-63.588653]).bindLabel('Bolivia: Mobiles per 100 people: 96').addTo(map);
+L.marker([43.915886,17.679076]).bindLabel('Bosnia and Herzegovina: Mobiles per 100 people: 91').addTo(map);
+L.marker([-22.328474,24.684866]).bindLabel('Botswana: Mobiles per 100 people: 167').addTo(map);
+L.marker([-14.235004,-51.9252799999999]).bindLabel('Brazil: Mobiles per 100 people: 139').addTo(map);
+L.marker([4.535277,114.727668999999]).bindLabel('Brunei Darussalam: Mobiles per 100 people: 110').addTo(map);
+L.marker([42.733883,25.4858299999999]).bindLabel('Bulgaria: Mobiles per 100 people: 138').addTo(map);
+L.marker([12.238333,-1.56159300000001]).bindLabel('Burkina Faso: Mobiles per 100 people: 72').addTo(map);
+L.marker([-3.373056,29.9188859999999]).bindLabel('Burundi: Mobiles per 100 people: 30').addTo(map);
+L.marker([15.120142,-23.6051721]).bindLabel('Cabo Verde: Mobiles per 100 people: 122').addTo(map);
+L.marker([12.565679,104.990962999999]).bindLabel('Cambodia: Mobiles per 100 people: 155').addTo(map);
+L.marker([7.36972199999999,12.354722]).bindLabel('Cameroon: Mobiles per 100 people: 76').addTo(map);
+L.marker([56.130366,-106.346770999999]).bindLabel('Canada: Mobiles per 100 people: 83').addTo(map);
+L.marker([19.3133,-81.2545999999999]).bindLabel('Cayman Islands: Mobiles per 100 people: 154').addTo(map);
+L.marker([6.61111099999999,20.9394439999999]).bindLabel('Central African Republic: Mobiles per 100 people: 31').addTo(map);
+L.marker([15.454166,18.732207]).bindLabel('Chad: Mobiles per 100 people: 40').addTo(map);
+L.marker([-35.675147,-71.5429689999999]).bindLabel('Chile: Mobiles per 100 people: 133').addTo(map);
+L.marker([35.86166,104.195396999999]).bindLabel('China: Mobiles per 100 people: 92').addTo(map);
+L.marker([4.570868,-74.2973329999999]).bindLabel('Colombia: Mobiles per 100 people: 113').addTo(map);
+L.marker([-11.6455,43.3333]).bindLabel('Comoros: Mobiles per 100 people: 51').addTo(map);
+L.marker([9.007017,38.7697891999999]).bindLabel('Congo, Dem. Rep.: Mobiles per 100 people: 53').addTo(map);
+L.marker([8.9887752,38.778213]).bindLabel('Congo, Rep.: Mobiles per 100 people: 108').addTo(map);
+L.marker([9.74891699999999,-83.7534279999999]).bindLabel('Costa Rica: Mobiles per 100 people: 144').addTo(map);
+L.marker([7.53998899999999,-5.54708000000005]).bindLabel('Cote dIvoire: Mobiles per 100 people: 106').addTo(map);
+L.marker([45.1,15.2]).bindLabel('Croatia: Mobiles per 100 people: 104').addTo(map);
+L.marker([21.521757,-77.7811669999999]).bindLabel('Cuba: Mobiles per 100 people: 22').addTo(map);
+L.marker([12.16957,-68.99002]).bindLabel('Curacao: Mobiles per 100 people: 122').addTo(map);
+L.marker([35.126413,33.4298589999999]).bindLabel('Cyprus: Mobiles per 100 people: 96').addTo(map);
+L.marker([49.8174919999999,15.472962]).bindLabel('Czech Republic: Mobiles per 100 people: 130').addTo(map);
+L.marker([56.26392,9.50178500000004]).bindLabel('Denmark: Mobiles per 100 people: 126').addTo(map);
+L.marker([11.825138,42.590275]).bindLabel('Djibouti: Mobiles per 100 people: 32').addTo(map);
+L.marker([15.414999,-61.370976]).bindLabel('Dominica: Mobiles per 100 people: 127').addTo(map);
+L.marker([18.735693,-70.1626509999999]).bindLabel('Dominican Republic: Mobiles per 100 people: 79').addTo(map);
+L.marker([-1.831239,-78.1834059999999]).bindLabel('Ecuador: Mobiles per 100 people: 104').addTo(map);
+L.marker([26.820553,30.802498]).bindLabel('Egypt, Arab Rep.: Mobiles per 100 people: 114').addTo(map);
+L.marker([13.794185,-88.8965299999999]).bindLabel('El Salvador: Mobiles per 100 people: 144').addTo(map);
+L.marker([1.650801,10.2678949999999]).bindLabel('Equatorial Guinea: Mobiles per 100 people: 66').addTo(map);
+L.marker([15.179384,39.7823339999999]).bindLabel('Eritrea: Mobiles per 100 people: 6').addTo(map);
+L.marker([58.595272,25.0136069999999]).bindLabel('Estonia: Mobiles per 100 people: 161').addTo(map);
+L.marker([9.145,40.489673]).bindLabel('Ethiopia: Mobiles per 100 people: 32').addTo(map);
+L.marker([61.892635,-6.91180600000007]).bindLabel('Faeroe Islands: Mobiles per 100 people: 124').addTo(map);
+L.marker([-17.713371,178.065031999999]).bindLabel('Fiji: Mobiles per 100 people: 99').addTo(map);
+L.marker([61.9241099999999,25.748151]).bindLabel('Finland: Mobiles per 100 people: 140').addTo(map);
+L.marker([46.227638,2.213749]).bindLabel('France: Mobiles per 100 people: 100').addTo(map);
+L.marker([-17.679742,-149.406842999999]).bindLabel('French Polynesia: Mobiles per 100 people: 86').addTo(map);
+L.marker([-0.803689,11.6094439999999]).bindLabel('Gabon: Mobiles per 100 people: 210').addTo(map);
+L.marker([13.443182,-15.3101389999999]).bindLabel('Gambia, The: Mobiles per 100 people: 120').addTo(map);
+L.marker([42.315407,43.356892]).bindLabel('Georgia: Mobiles per 100 people: 125').addTo(map);
+L.marker([51.165691,10.451526]).bindLabel('Germany: Mobiles per 100 people: 120').addTo(map);
+L.marker([7.946527,-1.02319399999998]).bindLabel('Ghana: Mobiles per 100 people: 115').addTo(map);
+L.marker([39.074208,21.8243119999999]).bindLabel('Greece: Mobiles per 100 people: 115').addTo(map);
+L.marker([71.706936,-42.604303]).bindLabel('Greenland: Mobiles per 100 people: 106').addTo(map);
+L.marker([12.1165,-61.6789999999999]).bindLabel('Grenada: Mobiles per 100 people: 127').addTo(map);
+L.marker([13.444304,144.793730999999]).bindLabel('Guam: Mobiles per 100 people: N/A').addTo(map);
+L.marker([15.783471,-90.2307589999999]).bindLabel('Guatemala: Mobiles per 100 people: 107').addTo(map);
+L.marker([9.945587,-9.69664499999999]).bindLabel('Guinea: Mobiles per 100 people: 72').addTo(map);
+L.marker([11.803749,-15.180413]).bindLabel('Guinea-Bissau: Mobiles per 100 people: 63').addTo(map);
+L.marker([4.860416,-58.93018]).bindLabel('Guyana: Mobiles per 100 people: 71').addTo(map);
+L.marker([18.971187,-72.285215]).bindLabel('Haiti: Mobiles per 100 people: 65').addTo(map);
+L.marker([15.199999,-86.2419049999999]).bindLabel('Honduras: Mobiles per 100 people: 94').addTo(map);
+L.marker([22.396428,114.109497]).bindLabel('Hong Kong SAR, China: Mobiles per 100 people: 239').addTo(map);
+L.marker([47.162494,19.503304]).bindLabel('Hungary: Mobiles per 100 people: 118').addTo(map);
+L.marker([64.963051,-19.020835]).bindLabel('Iceland: Mobiles per 100 people: 111').addTo(map);
+L.marker([20.593684,78.96288]).bindLabel('India: Mobiles per 100 people: 74').addTo(map);
+L.marker([-0.789275,113.921327]).bindLabel('Indonesia: Mobiles per 100 people: 126').addTo(map);
+L.marker([32.427908,53.6880459999999]).bindLabel('Iran, Islamic Rep.: Mobiles per 100 people: 88').addTo(map);
+L.marker([33.223191,43.679291]).bindLabel('Iraq: Mobiles per 100 people: 95').addTo(map);
+L.marker([53.41291,-8.24388999999996]).bindLabel('Ireland: Mobiles per 100 people: 104').addTo(map);
+L.marker([54.236107,-4.54805599999997]).bindLabel('Isle of Man: Mobiles per 100 people: N/A').addTo(map);
+L.marker([31.046051,34.8516119999999]).bindLabel('Israel: Mobiles per 100 people: 121').addTo(map);
+L.marker([41.87194,12.5673799999999]).bindLabel('Italy: Mobiles per 100 people: 154').addTo(map);
+L.marker([40.702677,-73.7889688999999]).bindLabel('Jamaica: Mobiles per 100 people: 103').addTo(map);
+L.marker([36.204824,138.252924]).bindLabel('Japan: Mobiles per 100 people: 120').addTo(map);
+L.marker([30.585164,36.238414]).bindLabel('Jordan: Mobiles per 100 people: 148').addTo(map);
+L.marker([48.019573,66.9236839999999]).bindLabel('Kazakhstan: Mobiles per 100 people: 169').addTo(map);
+L.marker([-0.023559,37.906193]).bindLabel('Kenya: Mobiles per 100 people: 74').addTo(map);
+L.marker([1.8708833,-157.3630262]).bindLabel('Kiribati: Mobiles per 100 people: 17').addTo(map);
+L.marker([40.339852,127.510092999999]).bindLabel('Korea, Dem. Rep.: Mobiles per 100 people: 11').addTo(map);
+L.marker([35.907757,127.766922]).bindLabel('Korea, Rep.: Mobiles per 100 people: 116').addTo(map);
+L.marker([29.31166,47.4817659999999]).bindLabel('Kuwait: Mobiles per 100 people: 218').addTo(map);
+L.marker([41.20438,74.766098]).bindLabel('Kyrgyz Republic: Mobiles per 100 people: 134').addTo(map);
+L.marker([19.85627,102.495496]).bindLabel('Lao PDR: Mobiles per 100 people: 67').addTo(map);
+L.marker([56.879635,24.6031889999999]).bindLabel('Latvia: Mobiles per 100 people: 124').addTo(map);
+L.marker([33.854721,35.8622849999999]).bindLabel('Lebanon: Mobiles per 100 people: 88').addTo(map);
+L.marker([-29.609988,28.233608]).bindLabel('Lesotho: Mobiles per 100 people: 102').addTo(map);
+L.marker([6.428055,-9.42949899999996]).bindLabel('Liberia: Mobiles per 100 people: 73').addTo(map);
+L.marker([26.3351,17.228331]).bindLabel('Libya: Mobiles per 100 people: 161').addTo(map);
+L.marker([47.166,9.55537300000003]).bindLabel('Liechtenstein: Mobiles per 100 people: 104').addTo(map);
+L.marker([55.169438,23.8812749999999]).bindLabel('Lithuania: Mobiles per 100 people: 147').addTo(map);
+L.marker([49.815273,6.12958300000002]).bindLabel('Luxembourg: Mobiles per 100 people: 148').addTo(map);
+L.marker([22.198745,113.543873]).bindLabel('Macao SAR, China: Mobiles per 100 people: 323').addTo(map);
+L.marker([41.608635,21.7452749999999]).bindLabel('Macedonia, FYR: Mobiles per 100 people: 109').addTo(map);
+L.marker([-18.766947,46.8691069999999]).bindLabel('Madagascar: Mobiles per 100 people: 38').addTo(map);
+L.marker([-13.254308,34.3015249999999]).bindLabel('Malawi: Mobiles per 100 people: 30').addTo(map);
+L.marker([4.210484,101.975766]).bindLabel('Malaysia: Mobiles per 100 people: 149').addTo(map);
+L.marker([1.977247,73.5361034]).bindLabel('Maldives: Mobiles per 100 people: 189').addTo(map);
+L.marker([17.570692,-3.99616600000001]).bindLabel('Mali:  Mobiles per 100 people: 149').addTo(map);
+L.marker([35.937496,14.3754159999999]).bindLabel('Malta: Mobiles per 100 people: 127').addTo(map);
+L.marker([6.06839359999999,171.989378999999]).bindLabel('Marshall Islands: Mobiles per 100 people: 29').addTo(map);
+L.marker([21.00789,-10.9408349999999]).bindLabel('Mauritania: Mobiles per 100 people: 94').addTo(map);
+L.marker([-20.348404,57.5521519999999]).bindLabel('Mauritius: Mobiles per 100 people: 132').addTo(map);
+L.marker([39.1730652,-91.887271]).bindLabel('Mexico: Mobiles per 100 people: 83').addTo(map);
+L.marker([6.8874813,158.215071699999]).bindLabel('Micronesia, Fed. Sts.: Mobiles per 100 people: N/A').addTo(map);
+L.marker([47.411631,28.369885]).bindLabel('Moldova: Mobiles per 100 people: 108').addTo(map);
+L.marker([43.7384176,7.42461579999997]).bindLabel('Monaco: Mobiles per 100 people: 88').addTo(map);
+L.marker([46.862496,103.846655999999]).bindLabel('Mongolia: Mobiles per 100 people: 105').addTo(map);
+L.marker([42.708678,19.3743899999999]).bindLabel('Montenegro: Mobiles per 100 people: 163').addTo(map);
+L.marker([42.708678,19.3743899999999]).bindLabel('Morocco: Mobiles per 100 people: 132').addTo(map);
+L.marker([-18.665695,35.5295619999999]).bindLabel('Mozambique: Mobiles per 100 people: 70').addTo(map);
+L.marker([21.913965,95.956223]).bindLabel('Myanmar: Mobiles per 100 people: 49').addTo(map);
+L.marker([-22.95764,18.4904099999999]).bindLabel('Namibia: Mobiles per 100 people: 114').addTo(map);
+L.marker([28.394857,84.124008]).bindLabel('Nepal: Mobiles per 100 people: 82').addTo(map);
+L.marker([52.132633,5.29126599999995]).bindLabel('Netherlands: Mobiles per 100 people: 116').addTo(map);
+L.marker([-20.904305,165.618042]).bindLabel('New Caledonia: Mobiles per 100 people: 94').addTo(map);
+L.marker([-40.900557,174.885971]).bindLabel('New Zealand: Mobiles per 100 people: 112').addTo(map);
+L.marker([12.865416,-85.2072289999999]).bindLabel('Nicaragua: Mobiles per 100 people: 115').addTo(map);
+L.marker([17.607789,8.08166600000004]).bindLabel('Niger: Mobiles per 100 people: 44').addTo(map);
+L.marker([9.081999,8.67527700000005]).bindLabel('Nigeria: Mobiles per 100 people: 78').addTo(map);
+L.marker([15.0979,145.6739]).bindLabel('Northern Mariana Islands: Mobiles per 100 people: N/A').addTo(map);
+L.marker([60.4720239999999,8.46894599999996]).bindLabel('Norway: Mobiles per 100 people: 117').addTo(map);
+L.marker([21.512583,55.9232549999999]).bindLabel('Oman: Mobiles per 100 people: 158').addTo(map);
+L.marker([30.375321,69.3451159999999]).bindLabel('Pakistan: Mobiles per 100 people: 73').addTo(map);
+L.marker([7.51497999999999,134.582519999999]).bindLabel('Palau: Mobiles per 100 people: 91').addTo(map);
+L.marker([8.537981,-80.782127]).bindLabel('Panama: Mobiles per 100 people: 158').addTo(map);
+L.marker([-6.31499299999999,143.95555]).bindLabel('Papua New Guinea: Mobiles per 100 people: 45').addTo(map);
+L.marker([-23.442503,-58.4438319999999]).bindLabel('Paraguay: Mobiles per 100 people: 106').addTo(map);
+L.marker([-9.189967,-75.015152]).bindLabel('Peru: Mobiles per 100 people: 103').addTo(map);
+L.marker([12.879721,121.774016999999]).bindLabel('Philippines: Mobiles per 100 people: 111').addTo(map);
+L.marker([51.919438,19.1451359999999]).bindLabel('Poland: Mobiles per 100 people: 156').addTo(map);
+L.marker([39.3998719999999,-8.22445400000003]).bindLabel('Portugal: Mobiles per 100 people: 112').addTo(map);
+L.marker([18.220833,-66.590149]).bindLabel('Puerto Rico: Mobiles per 100 people: 87').addTo(map);
+L.marker([25.354826,51.183884]).bindLabel('Qatar: Mobiles per 100 people: 146').addTo(map);
+L.marker([45.943161,24.96676]).bindLabel('Romania: Mobiles per 100 people: 106').addTo(map);
+L.marker([61.52401,105.318756]).bindLabel('Russian Federation: Mobiles per 100 people: 155').addTo(map);
+L.marker([-1.940278,29.8738879999999]).bindLabel('Rwanda: Mobiles per 100 people: 64').addTo(map);
+L.marker([-13.759029,-172.104629]).bindLabel('Samoa: Mobiles per 100 people: 56').addTo(map);
+L.marker([43.94236,12.4577769999999]).bindLabel('San Marino: Mobiles per 100 people: 119').addTo(map);
+L.marker([0.18636,6.61308099999996]).bindLabel('Sao Tome and Principe: Mobiles per 100 people: 65').addTo(map);
+L.marker([23.885942,45.079162]).bindLabel('Saudi Arabia: Mobiles per 100 people: 180').addTo(map);
+L.marker([14.497401,-14.4523619999999]).bindLabel('Senegal: Mobiles per 100 people: 99').addTo(map);
+L.marker([44.016521,21.0058589999999]).bindLabel('Serbia: Mobiles per 100 people: 122').addTo(map);
+L.marker([-4.679574,55.491977]).bindLabel('Seychelles: Mobiles per 100 people: 162').addTo(map);
+L.marker([8.460555,-11.779889]).bindLabel('Sierra Leone: Mobiles per 100 people: 77').addTo(map);
+L.marker([1.352083,103.819836]).bindLabel('Singapore: Mobiles per 100 people: 158').addTo(map);
+L.marker([18.04248,-63.05483]).bindLabel('Sint Maarten (Dutch part): Mobiles per 100 people: N/A').addTo(map);
+L.marker([48.669026,19.699024]).bindLabel('Slovak Republic: Mobiles per 100 people: 117').addTo(map);
+L.marker([46.151241,14.9954629999999]).bindLabel('Slovenia: Mobiles per 100 people: 112').addTo(map);
+L.marker([-9.64571,160.156194]).bindLabel('Solomon Islands: Mobiles per 100 people: 66').addTo(map);
+L.marker([5.152149,46.1996159999999]).bindLabel('Somalia: Mobiles per 100 people: 51').addTo(map);
+L.marker([-30.559482,22.9375059999999]).bindLabel('South Africa: Mobiles per 100 people: 150').addTo(map);
+L.marker([6.87699189999999,31.3069788]).bindLabel('South Sudan: Mobiles per 100 people: 25').addTo(map);
+L.marker([40.463667,-3.74922000000003]).bindLabel('Spain: Mobiles per 100 people: 108').addTo(map);
+L.marker([7.87305399999999,80.7717969999999]).bindLabel('Sri Lanka: Mobiles per 100 people: 103').addTo(map);
+L.marker([17.357822,-62.782998]).bindLabel('St. Kitts and Nevis: Mobiles per 100 people: 140').addTo(map);
+L.marker([13.909444,-60.9788929999999]).bindLabel('St. Lucia: Mobiles per 100 people: 103').addTo(map);
+L.marker([18.04248,-63.05483]).bindLabel('St. Martin (French part): Mobiles per 100 people: N/A').addTo(map);
+L.marker([13.2528179,-61.1971628]).bindLabel('St. Vincent and the Grenadines: Mobiles per 100 people: 105').addTo(map);
+L.marker([12.862807,30.2176359999999]).bindLabel('Sudan: Mobiles per 100 people: 72').addTo(map);
+L.marker([3.919305,-56.027783]).bindLabel('Suriname: Mobiles per 100 people: 171').addTo(map);
+L.marker([-26.522503,31.465866]).bindLabel('Swaziland: Mobiles per 100 people: 72').addTo(map);
+L.marker([60.128161,18.643501]).bindLabel('Sweden: Mobiles per 100 people: 128').addTo(map);
+L.marker([46.818188,8.22751199999993]).bindLabel('Switzerland: Mobiles per 100 people: 141').addTo(map);
+L.marker([34.8020749999999,38.9968149999999]).bindLabel('Syrian Arab Republic: Mobiles per 100 people: 71').addTo(map);
+L.marker([23.69781,120.960514999999]).bindLabel('Taiwan, China: Mobiles per 100 people: N/A').addTo(map);
+L.marker([38.861034,71.2760929999999]).bindLabel('Tajikistan: Mobiles per 100 people: 95').addTo(map);
+L.marker([-6.369028,34.888822]).bindLabel('Tanzania: Mobiles per 100 people: 63').addTo(map);
+L.marker([15.870032,100.992541]).bindLabel('Thailand: Mobiles per 100 people: 144').addTo(map);
+L.marker([-8.874217,125.727538999999]).bindLabel('Timor-Leste: Mobiles per 100 people: 59').addTo(map);
+L.marker([8.619543,0.824782000000027]).bindLabel('Togo: Mobiles per 100 people: 69').addTo(map);
+L.marker([-21.178986,-175.198242]).bindLabel('Tonga: Mobiles per 100 people: 64').addTo(map);
+L.marker([10.691803,-61.222503]).bindLabel('Trinidad and Tobago: Mobiles per 100 people: 147').addTo(map);
+L.marker([33.886917,9.53749900000002]).bindLabel('Tunisia: Mobiles per 100 people: 128').addTo(map);
+L.marker([38.963745,35.243322]).bindLabel('Turkey: Mobiles per 100 people: 95').addTo(map);
+L.marker([38.969719,59.556278]).bindLabel('Turkmenistan: Mobiles per 100 people: 136').addTo(map);
+L.marker([21.694025,-71.797928]).bindLabel('Turks and Caicos Islands: Mobiles per 100 people: N/A').addTo(map);
+L.marker([-7.4784418,178.6799214]).bindLabel('Tuvalu: Mobiles per 100 people: 38').addTo(map);
+L.marker([1.373333,32.290275]).bindLabel('Uganda: Mobiles per 100 people: 52').addTo(map);
+L.marker([48.379433,31.1655799999999]).bindLabel('Ukraine: Mobiles per 100 people: 144').addTo(map);
+L.marker([23.424076,53.8478179999999]).bindLabel('United Arab Emirates: Mobiles per 100 people: 178').addTo(map);
+L.marker([55.378051,-3.43597299999999]).bindLabel('United Kingdom: Mobiles per 100 people: 124').addTo(map);
+L.marker([37.09024,-95.712891]).bindLabel('United States: Mobiles per 100 people: 98').addTo(map);
+L.marker([-32.522779,-55.765835]).bindLabel('Uruguay: Mobiles per 100 people: 161').addTo(map);
+L.marker([41.377491,64.585262]).bindLabel('Uzbekistan: Mobiles per 100 people: 74').addTo(map);
+L.marker([-15.376706,166.959158]).bindLabel('Vanuatu: Mobiles per 100 people: 60').addTo(map);
+L.marker([6.42375,-66.58973]).bindLabel('Venezuela, RB: Mobiles per 100 people: 99').addTo(map);
+L.marker([14.058324,108.277199]).bindLabel('Vietnam: Mobiles per 100 people: 147').addTo(map);
+L.marker([18.335765,-64.896335]).bindLabel('Virgin Islands (U.S.): Mobiles per 100 people: N/A').addTo(map);
+L.marker([31.522561,34.4535929999999]).bindLabel('West Bank and Gaza: Mobiles per 100 people: 72').addTo(map);
+L.marker([15.552727,48.516388]).bindLabel('Yemen, Rep.: Mobiles per 100 people: 68').addTo(map);
+L.marker([-13.133897,27.849332]).bindLabel('Zambia: Mobiles per 100 people: 67').addTo(map);
+L.marker([-19.015438,29.1548569999999]).bindLabel('Zimbabwe: Mobiles per 100 people: 81').addTo(map);
+   
+</script>
+</body>
+</html>
 
