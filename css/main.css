@@ -20,11 +20,11 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2px;
+    font-size: 1.5em;
     font-family: 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 5 px;
+    font-size: 1em;
     color: #746666;
     font-family: 'Arial';
 }
