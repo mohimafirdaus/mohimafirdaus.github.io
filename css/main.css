@@ -38,6 +38,7 @@ p {
 h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #397D02;
+    text-decoration: underline;
 }
 footer {
     border-top: 1px solid #d5d5d5;
