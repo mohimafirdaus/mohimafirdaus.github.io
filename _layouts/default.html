@@ -13,19 +13,23 @@
         	           	 <li><a href="/map">Map</a></li>
     		    </ul>
 	        	</nav>
-	        	<script>
-  (function() {
-    var cx = '000670201118638688708:lcer7kx56by';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
+	        <div id="tfheader">
+    <form id="tfnewsearch" method="get" action="http://www.mywebsite.com">
+        <input type="text" class="tftextinput" id="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+    </form>
+<div class="tfclear"></div>
+</div>
+
+<script>
+    var a = document.getElementById('tfnewsearch');
+    a.addEventListener('submit',function(e) {
+        e.preventDefault();
+        var b = document.getElementById('tftextinput').value;
+        window.location.href = 'https://github.com/mohimafirdaus/mohimafirdaus.github.io.git'+b;
+
+    });
+
 </script>
-<gcse:search></gcse:search>
 	
 	        
 	         	<div class="container">
