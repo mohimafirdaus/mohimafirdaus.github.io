@@ -31,17 +31,17 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    font-family:'verdana"f';
-    color: #bac7dd;
+    font-family:'verdana';
+    color: #ffffff;
     text-decoration:bold;
 }
 h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Verdana';
     color: #335ba1;
     text-decoration: bold;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #3f3f3f;
     font-size: .8em;
 }
 
