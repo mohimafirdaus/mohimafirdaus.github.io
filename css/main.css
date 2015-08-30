@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #c067f2;
+    background-color: #f4b4e1;
 }
 nav ul, footer ul {
     font-family:'Arial black';
@@ -25,7 +25,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Impact';
-    color: #155372;
+    color: #f2edf6;
 }
 
 p {
@@ -36,8 +36,8 @@ p {
     text-decoration:bold;
 }
 h2 {
-    font-family:'Georgia';
-    color: #335ba1;
+    font-family:'Impact';
+    color: #f2edf6;
     text-decoration: bold;
 }
 footer {
