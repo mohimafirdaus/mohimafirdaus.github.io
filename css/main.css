@@ -8,7 +8,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: #335ba1;
+    color: #5d82c1;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -26,7 +26,7 @@ h1 {
     font-size: 3em;
     font-family:'Impact';
     color: #335ba1;
-    text-decoration: underline;
+    text-decoration: bold;
 }
 
 p {
@@ -34,11 +34,12 @@ p {
     line-height: 1.4em;
     font-family:'verdana"f';
     color: #bac7dd;
+    text-decoration:bold;
 }
 h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #397D02;
-    text-decoration: underline;
+    color: #335ba1;
+    text-decoration: bold;
 }
 footer {
     border-top: 1px solid #d5d5d5;
