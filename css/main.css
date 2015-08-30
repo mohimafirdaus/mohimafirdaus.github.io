@@ -4,7 +4,7 @@ body {
     background-color: #a8a8a8;
 }
 nav ul, footer ul {
-    font-family:'Arial black';
+    font-family:'Georgia Bold';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -36,7 +36,7 @@ p {
     text-decoration:bold;
 }
 h2 {
-    font-family:'Verdana';
+    font-family:'Georgia Bold';
     color: #335ba1;
     text-decoration: bold;
 }
