@@ -1,14 +1,14 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #a8a8a8;
+    background-color: #c067f2;
 }
 nav ul, footer ul {
     font-family:'Arial black';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: #5d82c1;
+    color: #590489;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -16,11 +16,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #325796;
+    color: #590489;
 }
 a:hover {
     text-decoration: bold;
-    color: #4a69bd;
+    color: #f43093;
 }
 h1 {
     font-size: 3em;
